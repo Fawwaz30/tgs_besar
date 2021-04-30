@@ -24,5 +24,4 @@ Route::group(['middleware' => ['auth']], function () {
     /** Route Barang **/
     Route::resource('barang', ItemController::class);
 
-    
 });
