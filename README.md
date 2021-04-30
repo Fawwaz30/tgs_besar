@@ -32,6 +32,11 @@ php artisan storage:link
 php artisan serve
 ```
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
+## Use
+```
+admin : admin@gmail.com
+password : 123456
+user : user@gmail.com
+password : 123456
+pegawai : pegawai@gmail.com
+password : 123456
