@@ -4,6 +4,9 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
+
+    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200"> Dashboard </h2>
+
     <h5 class="mb-4 text-2sm font-semibold text-gray-700 dark:text-gray-200"> Table Informasi Barang </h5>
     <div class="w-full overflow-hidden rounded-lg shadow-xs">
         <div class="w-full overflow-x-auto">
@@ -12,6 +15,7 @@
                     <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
                         <th class="px-4 py-3">Barang</th>
                         <th class="px-4 py-3">Date</th>
+                        <th class="px-4 py-3">Status</th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -22,7 +26,11 @@
                                     <p class="font-semibold">Iphone 6S</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/4/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -31,7 +39,11 @@
                                     <p class="font-semibold">Playstation 5</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -40,7 +52,11 @@
                                     <p class="font-semibold">Macbook Air M1</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/5/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700"> Denied </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -49,7 +65,11 @@
                                     <p class="font-semibold">Apple Watch S6</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/7/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -58,7 +78,11 @@
                                     <p class="font-semibold">Huawei P20Pro</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/2/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700"> Expired </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -67,7 +91,11 @@
                                     <p class="font-semibold">Lenovo Legion 5i</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/4/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -76,7 +104,11 @@
                                     <p class="font-semibold">Sony WH-1000XM4</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/4/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -85,7 +117,11 @@
                                     <p class="font-semibold">Ipad Pro M1</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/6/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                         <td class="px-4 py-3">
@@ -94,7 +130,76 @@
                                     <p class="font-semibold">Air Jordan Retro Hyper</p>
                                 </div>
                             </div>
-                        <td class="px-4 py-3 text-sm"> 6/10/2021 </td>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/4/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100"> Approved </span>
+                        </td>
+                    </tr>
+                    <tr class="text-gray-700 dark:text-gray-400">
+                        <td class="px-4 py-3">
+                            <div class="flex items-center text-sm">
+                                <div>
+                                    <p class="font-semibold">Playstation 5</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
+                    </tr>
+                    <tr class="text-gray-700 dark:text-gray-400">
+                        <td class="px-4 py-3">
+                            <div class="flex items-center text-sm">
+                                <div>
+                                    <p class="font-semibold">Playstation 5</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
+                    </tr>
+                    <tr class="text-gray-700 dark:text-gray-400">
+                        <td class="px-4 py-3">
+                            <div class="flex items-center text-sm">
+                                <div>
+                                    <p class="font-semibold">Playstation 5</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
+                    </tr>
+                    <tr class="text-gray-700 dark:text-gray-400">
+                        <td class="px-4 py-3">
+                            <div class="flex items-center text-sm">
+                                <div>
+                                    <p class="font-semibold">Playstation 5</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
+                    </tr>
+                    <tr class="text-gray-700 dark:text-gray-400">
+                        <td class="px-4 py-3">
+                            <div class="flex items-center text-sm">
+                                <div>
+                                    <p class="font-semibold">Playstation 5</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-4 py-3 text-sm"> 6/9/2021 </td>
+                        <td class="px-4 py-3 text-xs">
+                            <span class="px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600"> Pending </span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -114,13 +219,14 @@
                             </button>
                         </li>
                         <li>
-                            <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"> 1 </button>
+                            <button class="px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple"> 1 </button>
+                            
                         </li>
                         <li>
                             <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"> 2 </button>
                         </li>
                         <li>
-                            <button class="px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple"> 3 </button>
+                            <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"> 3 </button>
                         </li>
                         <li>
                             <button class="px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple"> 4 </button>
